@@ -3,3 +3,5 @@ https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin/compare/
 
 # Template URLs in skills. The reader substitutes the placeholder at run time.
 https://storage.googleapis.com/mcp-toolbox-for-databases/v\$VERSION/.*
+https://mcp-toolbox.dev/v<version>/.*
+https://raw.githubusercontent.com/googleapis/mcp-toolbox/v<version>/.*
