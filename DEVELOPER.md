@@ -21,8 +21,8 @@ The core logic for this extension is handled by a pre-built `toolbox` binary. Th
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/gemini-cli-extensions/mcp-toolbox.git
-    cd mcp-toolbox
+    git clone https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin.git
+    cd mcp-toolbox-plugin
     ```
 
 2.  **Download the Toolbox Binary:** The required version of the `toolbox` binary
@@ -91,8 +91,7 @@ required.
 The primary maintainers for this repository are defined in the
 [`.github/CODEOWNERS`](.github/CODEOWNERS) file:
 
-*   `@gemini-cli-extensions/senseai-eco`
-*   `@gemini-cli-extensions/mcp-toolbox-maintainers`
+*   `@GoogleCloudPlatform/senseai-eco`
 
 ### Releasing
 

@@ -36,7 +36,7 @@ Before you begin, ensure you have the following:
 ### Installation
 
 ```bash
-gemini extensions install https://github.com/gemini-cli-extensions/mcp-toolbox
+gemini extensions install https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin
 ```
 
 ### Configuration
