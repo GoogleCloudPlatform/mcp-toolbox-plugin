@@ -68,8 +68,8 @@ Claude Code or Codex, see
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/gemini-cli-extensions/mcp-toolbox.git
-    cd mcp-toolbox
+    git clone https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin.git
+    cd mcp-toolbox-plugin
     ```
 
 2.  **No binary to download.** The manifests run the server with
@@ -167,8 +167,7 @@ That is why the server runs from npm rather than from a packaged binary.
 The primary maintainers for this repository are defined in the
 [`.github/CODEOWNERS`](.github/CODEOWNERS) file:
 
-*   `@gemini-cli-extensions/senseai-eco`
-*   `@gemini-cli-extensions/mcp-toolbox-maintainers`
+*   `@GoogleCloudPlatform/senseai-eco`
 
 ### Releasing
 

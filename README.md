@@ -44,27 +44,27 @@ All harnesses use the same plugin; the MCP server runs via `npx` (no binary to d
 **Gemini CLI**
 
 ```bash
-gemini extensions install https://github.com/gemini-cli-extensions/mcp-toolbox
+gemini extensions install https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin
 ```
 
 **Claude Code**
 
 ```bash
-claude plugin marketplace add gemini-cli-extensions/mcp-toolbox
+claude plugin marketplace add GoogleCloudPlatform/mcp-toolbox-plugin
 claude plugin install mcp-toolbox-devkit@mcp-toolbox-marketplace
 ```
 
 **Codex**
 
 ```bash
-codex plugin marketplace add gemini-cli-extensions/mcp-toolbox
+codex plugin marketplace add GoogleCloudPlatform/mcp-toolbox-plugin
 codex plugin add mcp-toolbox-devkit@mcp-toolbox-marketplace
 ```
 
 **Antigravity**
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/mcp-toolbox
+agy plugin install https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin
 ```
 
 ### Configuration

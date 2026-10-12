@@ -7,7 +7,7 @@
     "email": "senseai-eco@google.com"
   },
   "homepage": "https://mcp-toolbox.dev",
-  "repository": "https://github.com/gemini-cli-extensions/mcp-toolbox",
+  "repository": "https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin",
   "license": "Apache-2.0",
   "keywords": [
     "mcp",
