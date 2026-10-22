@@ -45,8 +45,11 @@ Keep these rules in mind when you edit them:
 *   **The MCP server is declared in four files.** `gemini-extension.json`,
     `.claude-plugin/plugin.json`, `mcp.json`, and `mcp_config.json` each declare
     `mcp_toolbox` because each harness reads a different file. Keep the four
-    identical. Renovate bumps the pinned `@toolbox-sdk/server` version in all of
-    them; add any new file that declares the server to `.github/renovate.json5`.
+    identical apart from `--user-agent-metadata`, which carries a per-harness
+    token (`plugin-geminicli`, `plugin-claudecode`, `plugin-codex`,
+    `plugin-antigravity`) so usage is attributable to the harness it came from.
+    Renovate bumps the pinned `@toolbox-sdk/server` version in all of them; add
+    any new file that declares the server to `.github/renovate.json5`.
 *   **The plugin version is in four files.** `gemini-extension.json`,
     `plugin.json`, `.claude-plugin/plugin.json`, and `.codex-plugin/plugin.json`
     each carry `version`, and Release Please bumps all four. Claude Code only
@@ -65,8 +68,8 @@ Claude Code or Codex, see
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/gemini-cli-extensions/mcp-toolbox.git
-    cd mcp-toolbox
+    git clone https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin.git
+    cd mcp-toolbox-plugin
     ```
 
 2.  **No binary to download.** The manifests run the server with
@@ -103,7 +106,7 @@ Code or Codex:
 
     ```bash
     claude plugin marketplace add ./
-    claude plugin install mcp-toolbox-devkit@mcp-toolbox-devkit-marketplace
+    claude plugin install mcp-toolbox-devkit@mcp-toolbox-marketplace
     ```
 
     A marketplace added from a local directory loads the plugin in place, so
@@ -164,8 +167,7 @@ That is why the server runs from npm rather than from a packaged binary.
 The primary maintainers for this repository are defined in the
 [`.github/CODEOWNERS`](.github/CODEOWNERS) file:
 
-*   `@gemini-cli-extensions/senseai-eco`
-*   `@gemini-cli-extensions/mcp-toolbox-maintainers`
+*   `@GoogleCloudPlatform/senseai-eco`
 
 ### Releasing
 
