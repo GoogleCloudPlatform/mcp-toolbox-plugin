@@ -1,2 +1,5 @@
 https://github.com/gemini-cli-extensions/mcp-toolbox/compare/
 https://github.com/GoogleCloudPlatform/mcp-toolbox-plugin/compare/
+
+# Template URLs in skills. The reader substitutes the placeholder at run time.
+https://storage.googleapis.com/mcp-toolbox-for-databases/v\$VERSION/.*
