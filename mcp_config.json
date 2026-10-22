@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mcp_toolbox": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolbox-sdk/server@1.13.1",
+        "--stdio",
+        "--user-agent-metadata",
+        "plugin-antigravity"
+      ]
+    }
+  }
+}
