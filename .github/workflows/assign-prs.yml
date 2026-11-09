@@ -18,6 +18,9 @@ name: PR assignment
 on: # zizmor: ignore[dangerous-triggers]
   pull_request_target:
     types: [opened, edited, reopened]
+    branches: [main]
+
+permissions: {}
 
 jobs:
   auto-assign:
